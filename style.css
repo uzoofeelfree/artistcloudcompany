@@ -31,18 +31,19 @@ body
 {
 	font-family: 'Bebas-Regular', sans-serif;
 
-	background: lightgray;
+/**	background: white; **/
 	color: black;
 
 	font-size: 22px;
 	line-height: 33px;
 
 	text-align: center;
+
 }
 
 
-/*.font1 {	font-family: 'Bebas-Regular', sans-serif; }*/
 .font2 {	font-family: 'StintUltraCondensed-Regular', sans-serif;}
+
 
 
 a
@@ -73,9 +74,9 @@ h1
 h2
 {
 	font-weight: 300;
-	font-size: 1.5em;
-	line-height: 1.5em;
-	color: gray;
+	font-size: 2em;
+	line-height: 1.25em;
+	color: gray; /* #3F3F3F */
 
 	-webkit-font-smoothing: subpixel-antialiased;
 }
@@ -133,12 +134,12 @@ div #logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 120vh;
+	height: 80vh;
 }
 
 .square {
-	width: 500px;
-	height: 300px;
+	width: 600px;
+	height: 400px;
 	/** background: grey;*/
 	transform: rotateY(45deg);
 	animation: rotateAnimation 5s ease infinite;
@@ -153,7 +154,6 @@ div #logo {
 	from {transform: rotateY(0deg);}
 	to {transform: rotateY(360deg);}
 }
-
 
 
 
