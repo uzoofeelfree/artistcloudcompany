@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>ScrollTrigger - Scroll based animations with ease</title>
+	<title>Artst Cloud Cloud</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Erik Terwan">
@@ -23,12 +23,24 @@
 <div class="block">
 	<h1 data-scroll="toggle(.scaleUpIn, .scaleUpOut)">Bienvenue</h1>
 	<h2 data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
-		Artcloud is an open platform for anyone who makes art and wants to connect with fellow artists</h2>
+		Artcloud is an open platform for anyone who makes art and<br> wants to connect with fellow artists</h2>
 </div>
 <div class="block">
+	<h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">🌫️🌫️🌫️</h1>
+	<h2 class="font2" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+		There are so many thoughts and ideas spread out like a fog,</h2>
+</div>
+
+<div class="block">
 	<h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">☁️☁️☁️</h1>
-	<h2 data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
-		There are so many thoughts and ideas spread out like a fog, and we wish this platform will give the opportunity to condense those ideas into a cloud, and possibly become a much-needed rain in this world for the sake of art</h2>
+	<h2 class="font2" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+		and we wish this platform will give the opportunity to condense those ideas into a cloud,</h2>
+</div>
+
+<div class="block">
+	<h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">☔☔☔</h1>
+	<h2 class="font2" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+		and possibly become a much-needed rain in this world for the sake of art</h2>
 </div>
 
 <div class="block">
@@ -38,9 +50,15 @@
 </div>
 
 <div class="block">
-	<h1 data-scroll="toggle(.scaleDownIn, .scaleDownOut)">Request Animation Frame</h1>
-	<h2 data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
-		It uses the window.requestAnimationFrame method so it doesn't jack the users scroll. Animations are triggered when the browser is ready for it.</h2>
+<!--
+<h1 data-scroll="toggle(.scaleDownIn, .scaleDownOut)">Request</h1>
+<h2 data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+		Animations are triggered when the browser is ready for it.</h2>
+-->
+
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
 </div>
 
 <div class="block">
@@ -88,6 +106,5 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 </script>
 
-<link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,500,700" rel="stylesheet">
 </body>
 </html>

@@ -1,6 +1,26 @@
 /**
  * Basic layout, for animation examples, check demo.css
  */
+
+ @font-face {
+   font-family: 'Bebas-Regular';
+   src: url('Bebas-Regular.eot'); /* IE9 Compat Modes */
+   src: url('Bebas-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('Bebas-Regular.woff') format('woff'), /* Modern Browsers */
+        url('Bebas-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('Bebas-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+ }
+
+ @font-face {
+ font-family: 'StintUltraCondensed-Regular';
+ src: url('StintUltraCondensed-Regular.eot'); /* IE9 Compat Modes */
+ src: url('StintUltraCondensed-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('StintUltraCondensed-Regular.woff') format('woff'), /* Modern Browsers */
+			url('StintUltraCondensed-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+			url('StintUltraCondensed-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+ }
+
+
 html, body
 {
 	margin: 0;
@@ -9,15 +29,21 @@ html, body
 
 body
 {
+	font-family: 'Bebas-Regular', sans-serif;
+
 	background: lightgray;
 	color: black;
 
-	font-family: 'Work Sans', sans-serif;
 	font-size: 22px;
 	line-height: 33px;
 
 	text-align: center;
 }
+
+
+/*.font1 {	font-family: 'Bebas-Regular', sans-serif; }*/
+.font2 {	font-family: 'StintUltraCondensed-Regular', sans-serif;}
+
 
 a
 {
@@ -35,7 +61,7 @@ a:hover
 
 h1
 {
-	font-size: 4em;
+	font-size: 5em;
 	font-weight: 200;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -47,7 +73,7 @@ h1
 h2
 {
 	font-weight: 300;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	line-height: 1.5em;
 	color: gray;
 
@@ -57,7 +83,7 @@ h2
 h3
 {
 	font-weight: 500;
-	font-size: 1em;
+	font-size: 1.3em;
 	line-height: 1.5em;
 	color: #d7e7f3;
 	margin: 80px 0 0 0;
@@ -127,6 +153,8 @@ div #logo {
 	from {transform: rotateY(0deg);}
 	to {transform: rotateY(360deg);}
 }
+
+
 
 
 /**
