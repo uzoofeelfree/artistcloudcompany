@@ -155,6 +155,27 @@ div #logo {
 	to {transform: rotateY(360deg);}
 }
 
+a.tooltip span {
+/*    position: absolute;
+    top: 10px;
+    left: 25px;
+    width: 250px;*/
+    margin: 0 auto;
+    border: none;
+    background: #F8F8F8;
+    padding: 0px;
+    z-index: 1000000;
+    display: inline;
+    opacity: 0;
+    transition: 750ms all;
+}
+a.tooltip:hover span {
+    outline: none;
+    text-decoration: none;
+    font-size: 70%;
+    color: #000;
+    opacity: 1;
+}
 
 
 /**
